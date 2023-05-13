@@ -1,6 +1,6 @@
-package strategy;
+package strategy.fly;
 
-public class NormalFlyStrategy implements FlyStrategy{
+public class NormalFlyStrategy implements FlyStrategy {
 
     @Override
     public void fly() {

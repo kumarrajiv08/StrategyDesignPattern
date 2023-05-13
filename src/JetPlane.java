@@ -1,12 +1,8 @@
-import strategy.FastFlyStrategy;
+import strategy.fly.FastFlyStrategy;
+import strategy.size.CompactSizeStrategy;
 
 public class JetPlane extends Plane{
     JetPlane() {
-        super(new FastFlyStrategy());
-    }
-
-    @Override
-    public void fly() {
-        super.fly();
+        super(new FastFlyStrategy(),new CompactSizeStrategy());
     }
 }

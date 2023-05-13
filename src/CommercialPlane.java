@@ -1,12 +1,8 @@
-import strategy.NormalFlyStrategy;
+import strategy.fly.NormalFlyStrategy;
+import strategy.size.LargeSizeStrategy;
 
 public class CommercialPlane extends Plane{
     CommercialPlane() {
-        super(new NormalFlyStrategy());
-    }
-
-    @Override
-    public void fly() {
-        super.fly();
+        super(new NormalFlyStrategy(),new LargeSizeStrategy());
     }
 }
