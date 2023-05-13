@@ -1,5 +1,5 @@
-import strategy.fly.NormalFlyStrategy;
-import strategy.size.LargeSizeStrategy;
+import strategy.flyStrategies.NormalFlyStrategy;
+import strategy.sizeStrategies.LargeSizeStrategy;
 
 public class CommercialPlane extends Plane{
     CommercialPlane() {

@@ -1,4 +1,4 @@
-package strategy.size;
+package strategy.sizeStrategies;
 
 public class LargeSizeStrategy implements SizeStrategy{
     @Override

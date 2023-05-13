@@ -1,5 +1,5 @@
-import strategy.fly.FastFlyStrategy;
-import strategy.size.CompactSizeStrategy;
+import strategy.flyStrategies.FastFlyStrategy;
+import strategy.sizeStrategies.CompactSizeStrategy;
 
 public class JetPlane extends Plane{
     JetPlane() {

@@ -1,4 +1,4 @@
-package strategy.fly;
+package strategy.flyStrategies;
 
 public class NormalFlyStrategy implements FlyStrategy {
 
