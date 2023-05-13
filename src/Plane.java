@@ -1,5 +1,5 @@
-import strategy.fly.FlyStrategy;
-import strategy.size.SizeStrategy;
+import strategy.flyStrategies.FlyStrategy;
+import strategy.sizeStrategies.SizeStrategy;
 
 public class Plane {
 
